@@ -6,6 +6,7 @@ e colunas sejam maiores que zero.
 2. Visualização de memória: O sistema deverá apresentar, de forma gráfica, a ocupação da
 memória. Um exemplo de ocupação de uma matriz de memória de tamanho 5x20 é
 apresentado abaixo, onde as regiões apresentadas como um ‘X’ estão ocupadas.
+<img src="/memória.png" alt="Representação memória"/>
 3. Alocação first fit: Esta estratégia de alocação encontra o primeiro espaço em memória cujo
 tamanho seja igual ou maior que o desejado e então realiza a alocação. No exemplo acima,
 caso uma alocação de tamanho 3 seja requisitada, ela seria realizada nas posições (0, 17),
@@ -24,3 +25,4 @@ ela ocorrerá nas posições (0,17), (0,18), (0,19) e (1,0).
 6. Desalocação: O usuário deverá informar as coordenadas de início e fim para realizar a
 desalocação de memória. Deve-se garantir que todas as coordenadas informadas sejam
 válidas antes de realizar a desalocação.
+<img src="/interface.png" alt="Interface da Aplicação"/>
